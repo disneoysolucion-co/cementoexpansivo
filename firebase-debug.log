@@ -1,10 +1,10 @@
-[debug] [2026-06-05T16:13:34.003Z] ----------------------------------------------------------------------
-[debug] [2026-06-05T16:13:34.005Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\disen\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init hosting
-[debug] [2026-06-05T16:13:34.005Z] CLI Version:   15.19.1
-[debug] [2026-06-05T16:13:34.005Z] Platform:      win32
-[debug] [2026-06-05T16:13:34.005Z] Node Version:  v24.16.0
-[debug] [2026-06-05T16:13:34.005Z] Time:          Fri Jun 05 2026 11:13:34 GMT-0500 (hora estándar de Colombia)
-[debug] [2026-06-05T16:13:34.005Z] ----------------------------------------------------------------------
+[debug] [2026-06-05T16:46:43.005Z] ----------------------------------------------------------------------
+[debug] [2026-06-05T16:46:43.007Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\disen\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init hosting
+[debug] [2026-06-05T16:46:43.007Z] CLI Version:   15.19.1
+[debug] [2026-06-05T16:46:43.007Z] Platform:      win32
+[debug] [2026-06-05T16:46:43.007Z] Node Version:  v24.16.0
+[debug] [2026-06-05T16:46:43.007Z] Time:          Fri Jun 05 2026 11:46:43 GMT-0500 (hora estándar de Colombia)
+[debug] [2026-06-05T16:46:43.007Z] ----------------------------------------------------------------------
 [debug] 
 [info] 
      ######## #### ########  ######## ########     ###     ######  ########
@@ -15,7 +15,7 @@
 
 You're about to initialize a Firebase project in this directory:
 
-  C:\Users\disen\cementoexpansivo
+  C:\users\disen\cementoexpansivo
 
 [info] 
 === Project Setup
@@ -23,47 +23,52 @@ You're about to initialize a Firebase project in this directory:
 [info] First, let's associate this project directory with a Firebase project.
 [info] You can create multiple project aliases by running firebase use --add, 
 [info] 
-[debug] [2026-06-05T16:13:59.736Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2026-06-05T16:13:59.736Z] > authorizing via signed-in user (disenoysolucion.co@gmail.com)
-[debug] [2026-06-05T16:13:59.737Z] Checked if tokens are valid: true, expires at: 1780678890364
-[debug] [2026-06-05T16:13:59.737Z] Checked if tokens are valid: true, expires at: 1780678890364
-[debug] [2026-06-05T16:13:59.738Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/stereos-1090 [none]
-[debug] [2026-06-05T16:14:00.176Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/stereos-1090 200
-[debug] [2026-06-05T16:14:00.176Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/stereos-1090 {"projectId":"stereos-1090","projectNumber":"64274507740","displayName":"stereos 1090","name":"projects/stereos-1090","resources":{"hostingSite":"stereos-1090"},"state":"ACTIVE","etag":"1_824a1fa3-bf67-41d8-a91b-09b323692fef"}
-[info] i  Using project stereos-1090 (stereos 1090) . 
+[debug] [2026-06-05T16:46:46.239Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-06-05T16:46:46.239Z] > authorizing via signed-in user (disenoysolucion.co@gmail.com)
+[debug] [2026-06-05T16:46:46.240Z] Checked if tokens are valid: false, expires at: 1780678890364
+[debug] [2026-06-05T16:46:46.240Z] Checked if tokens are valid: false, expires at: 1780678890364
+[debug] [2026-06-05T16:46:46.241Z] > refreshing access token with scopes: []
+[debug] [2026-06-05T16:46:46.256Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2026-06-05T16:46:46.257Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-06-05T16:46:46.642Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2026-06-05T16:46:46.642Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-06-05T16:46:46.721Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/cementoexpansivo-e4d43 [none]
+[debug] [2026-06-05T16:46:47.199Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/cementoexpansivo-e4d43 200
+[debug] [2026-06-05T16:46:47.199Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/cementoexpansivo-e4d43 {"projectId":"cementoexpansivo-e4d43","projectNumber":"644021898191","displayName":"cementoexpansivo","name":"projects/cementoexpansivo-e4d43","resources":{"hostingSite":"cementoexpansivo-e4d43"},"state":"ACTIVE","etag":"1_c3863116-7a73-464c-b6e4-1c46f98d2b22"}
+[info] i  Using project cementoexpansivo-e4d43 (cementoexpansivo) . 
 [info] 
 === Hosting Setup
-[debug] [2026-06-05T16:14:00.211Z] Checked if tokens are valid: true, expires at: 1780678890364
-[debug] [2026-06-05T16:14:00.211Z] Checked if tokens are valid: true, expires at: 1780678890364
-[debug] [2026-06-05T16:14:00.211Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/stereos-1090 [none]
-[debug] [2026-06-05T16:14:00.529Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/stereos-1090 200
-[debug] [2026-06-05T16:14:00.529Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/stereos-1090 {"projectId":"stereos-1090","projectNumber":"64274507740","displayName":"stereos 1090","name":"projects/stereos-1090","resources":{"hostingSite":"stereos-1090"},"state":"ACTIVE","etag":"1_824a1fa3-bf67-41d8-a91b-09b323692fef"}
+[debug] [2026-06-05T16:46:47.225Z] Checked if tokens are valid: true, expires at: 1780681605642
+[debug] [2026-06-05T16:46:47.225Z] Checked if tokens are valid: true, expires at: 1780681605642
+[debug] [2026-06-05T16:46:47.225Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/cementoexpansivo-e4d43 [none]
+[debug] [2026-06-05T16:46:47.543Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/cementoexpansivo-e4d43 200
+[debug] [2026-06-05T16:46:47.543Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/cementoexpansivo-e4d43 {"projectId":"cementoexpansivo-e4d43","projectNumber":"644021898191","displayName":"cementoexpansivo","name":"projects/cementoexpansivo-e4d43","resources":{"hostingSite":"cementoexpansivo-e4d43"},"state":"ACTIVE","etag":"1_c3863116-7a73-464c-b6e4-1c46f98d2b22"}
 [info] 
 [info] Your public directory is the folder (relative to your project directory) that
 [info] will contain Hosting assets to be uploaded with firebase deploy. If you
 [info] have a build process for your assets, use your build's output directory.
 [info] 
 [info] 
-[info] i  Detected a .git folder at C:\Users\disen 
+[info] i  Detected a .git folder at C:\users\disen\cementoexpansivo 
 [info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
 [info] 
 [info] Visit this URL on this device to log in:
-[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=647161064&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=218082334&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
 [info] 
 [info] Waiting for authentication...
-[debug] [2026-06-05T16:15:16.901Z] >>> [apiv2][query] POST https://github.com/login/oauth/access_token [none]
-[debug] [2026-06-05T16:15:16.901Z] >>> [apiv2][body] POST https://github.com/login/oauth/access_token [stream]
-[debug] [2026-06-05T16:15:17.462Z] <<< [apiv2][status] POST https://github.com/login/oauth/access_token 200
-[debug] [2026-06-05T16:15:17.462Z] <<< [apiv2][body] POST https://github.com/login/oauth/access_token {"access_token":"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","token_type":"bearer","scope":"read:user,repo"}
-[debug] [2026-06-05T16:15:17.466Z] >>> [apiv2][query] GET https://api.github.com/user [none]
-[debug] [2026-06-05T16:15:19.123Z] <<< [apiv2][status] GET https://api.github.com/user 200
-[debug] [2026-06-05T16:15:19.123Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"disneoysolucion-co","id":290509338,"node_id":"U_kgDOEVDSGg","avatar_url":"https://avatars.githubusercontent.com/u/290509338?v=4","gravatar_id":"","url":"https://api.github.com/users/disneoysolucion-co","html_url":"https://github.com/disneoysolucion-co","followers_url":"https://api.github.com/users/disneoysolucion-co/followers","following_url":"https://api.github.com/users/disneoysolucion-co/following{/other_user}","gists_url":"https://api.github.com/users/disneoysolucion-co/gists{/gist_id}","starred_url":"https://api.github.com/users/disneoysolucion-co/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/disneoysolucion-co/subscriptions","organizations_url":"https://api.github.com/users/disneoysolucion-co/orgs","repos_url":"https://api.github.com/users/disneoysolucion-co/repos","events_url":"https://api.github.com/users/disneoysolucion-co/events{/privacy}","received_events_url":"https://api.github.com/users/disneoysolucion-co/received_events","type":"User","user_view_type":"private","site_admin":false,"name":null,"company":null,"blog":"","location":null,"email":null,"hireable":null,"bio":null,"twitter_username":null,"notification_email":null,"public_repos":1,"public_gists":0,"followers":0,"following":2,"created_at":"2026-06-03T19:50:49Z","updated_at":"2026-06-05T16:08:47Z","private_gists":0,"total_private_repos":0,"owned_private_repos":0,"disk_usage":4,"collaborators":0,"two_factor_authentication":false,"plan":{"name":"free","space":976562499,"collaborators":0,"private_repos":10000}}
+[debug] [2026-06-05T16:48:19.054Z] >>> [apiv2][query] POST https://github.com/login/oauth/access_token [none]
+[debug] [2026-06-05T16:48:19.055Z] >>> [apiv2][body] POST https://github.com/login/oauth/access_token [stream]
+[debug] [2026-06-05T16:48:19.554Z] <<< [apiv2][status] POST https://github.com/login/oauth/access_token 200
+[debug] [2026-06-05T16:48:19.554Z] <<< [apiv2][body] POST https://github.com/login/oauth/access_token {"access_token":"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","token_type":"bearer","scope":"read:user,repo"}
+[debug] [2026-06-05T16:48:19.558Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2026-06-05T16:48:20.068Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2026-06-05T16:48:20.069Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"disneoysolucion-co","id":290509338,"node_id":"U_kgDOEVDSGg","avatar_url":"https://avatars.githubusercontent.com/u/290509338?v=4","gravatar_id":"","url":"https://api.github.com/users/disneoysolucion-co","html_url":"https://github.com/disneoysolucion-co","followers_url":"https://api.github.com/users/disneoysolucion-co/followers","following_url":"https://api.github.com/users/disneoysolucion-co/following{/other_user}","gists_url":"https://api.github.com/users/disneoysolucion-co/gists{/gist_id}","starred_url":"https://api.github.com/users/disneoysolucion-co/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/disneoysolucion-co/subscriptions","organizations_url":"https://api.github.com/users/disneoysolucion-co/orgs","repos_url":"https://api.github.com/users/disneoysolucion-co/repos","events_url":"https://api.github.com/users/disneoysolucion-co/events{/privacy}","received_events_url":"https://api.github.com/users/disneoysolucion-co/received_events","type":"User","user_view_type":"private","site_admin":false,"name":null,"company":null,"blog":"","location":null,"email":null,"hireable":null,"bio":null,"twitter_username":null,"notification_email":null,"public_repos":1,"public_gists":0,"followers":0,"following":2,"created_at":"2026-06-03T19:50:49Z","updated_at":"2026-06-05T16:08:47Z","private_gists":0,"total_private_repos":0,"owned_private_repos":0,"disk_usage":4,"collaborators":0,"two_factor_authentication":false,"plan":{"name":"free","space":976562499,"collaborators":0,"private_repos":10000}}
 [info] 
 [info] +  Success! Logged into GitHub as disneoysolucion-co 
 [info] 
-[debug] [2026-06-05T16:16:20.923Z] >>> [apiv2][query] GET https://api.github.com/repos/disenoysolucion-co/cementoexpansivo/actions/secrets/public-key type=owner
-[debug] [2026-06-05T16:16:21.411Z] <<< [apiv2][status] GET https://api.github.com/repos/disenoysolucion-co/cementoexpansivo/actions/secrets/public-key 404
-[debug] [2026-06-05T16:16:21.411Z] <<< [apiv2][body] GET https://api.github.com/repos/disenoysolucion-co/cementoexpansivo/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/actions/secrets#get-a-repository-public-key","status":"404"}
+[debug] [2026-06-05T16:49:17.850Z] >>> [apiv2][query] GET https://api.github.com/repos/disenoysolucion-co/cementoexpansivo/actions/secrets/public-key type=owner
+[debug] [2026-06-05T16:49:18.319Z] <<< [apiv2][status] GET https://api.github.com/repos/disenoysolucion-co/cementoexpansivo/actions/secrets/public-key 404
+[debug] [2026-06-05T16:49:18.319Z] <<< [apiv2][body] GET https://api.github.com/repos/disenoysolucion-co/cementoexpansivo/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/actions/secrets#get-a-repository-public-key","status":"404"}
 [info] 
 [info] 
 [error] !  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
@@ -71,17 +76,7 @@ You're about to initialize a Firebase project in this directory:
 [info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
 [info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
 [info] 
-[debug] [2026-06-05T16:18:46.418Z] >>> [apiv2][query] GET https://api.github.com/repos/disenoysolucionco-cpu/cementoexpansivo/actions/secrets/public-key type=owner
-[debug] [2026-06-05T16:18:46.973Z] <<< [apiv2][status] GET https://api.github.com/repos/disenoysolucionco-cpu/cementoexpansivo/actions/secrets/public-key 403
-[debug] [2026-06-05T16:18:46.973Z] <<< [apiv2][body] GET https://api.github.com/repos/disenoysolucionco-cpu/cementoexpansivo/actions/secrets/public-key {"message":"You must have repository read permissions or have the repository secrets fine-grained permission.","documentation_url":"https://docs.github.com/rest/actions/secrets#get-a-repository-public-key","status":"403"}
-[info] 
-[info] 
-[error] !  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
-[info] 
-[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
-[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
-[info] 
-[debug] [2026-06-05T16:19:18.136Z] ExitPromptError: User force closed the prompt with SIGINT
+[debug] [2026-06-05T17:00:06.518Z] ExitPromptError: User force closed the prompt with SIGINT
     at Interface.sigint (C:\Users\disen\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\@inquirer\core\dist\commonjs\lib\create-prompt.js:101:37)
     at Interface.emit (node:events:509:28)
     at [_ttyWrite] [as _ttyWrite] (node:internal/readline/interface:1327:18)
@@ -94,34 +89,3 @@ You're about to initialize a Firebase project in this directory:
     at addChunk (node:internal/streams/readable:563:12)
 [error] 
 [error] Error: An unexpected error has occurred.
-[debug] [2026-06-05T16:26:33.990Z] ----------------------------------------------------------------------
-[debug] [2026-06-05T16:26:33.992Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\disen\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init hosting:github
-[debug] [2026-06-05T16:26:33.993Z] CLI Version:   15.19.1
-[debug] [2026-06-05T16:26:33.993Z] Platform:      win32
-[debug] [2026-06-05T16:26:33.993Z] Node Version:  v24.16.0
-[debug] [2026-06-05T16:26:33.993Z] Time:          Fri Jun 05 2026 11:26:33 GMT-0500 (hora estándar de Colombia)
-[debug] [2026-06-05T16:26:33.993Z] ----------------------------------------------------------------------
-[debug] 
-[info] 
-     ######## #### ########  ######## ########     ###     ######  ########
-     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
-     ######    ##  ########  ######   ########  #########  ######  ######
-     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
-     ##       #### ##     ## ######## ########  ##     ##  ######  ########
-
-You're about to initialize a Firebase project in this directory:
-
-  C:\Users\disen\cementoexpansivo
-
-[info] 
-=== Project Setup
-[info] 
-[info] First, let's associate this project directory with a Firebase project.
-[info] You can create multiple project aliases by running firebase use --add, 
-[info] 
-[debug] [2026-06-05T16:26:41.814Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2026-06-05T16:26:41.814Z] > authorizing via signed-in user (disenoysolucion.co@gmail.com)
-[debug] [2026-06-05T16:26:41.815Z] Checked if tokens are valid: true, expires at: 1780678890364
-[debug] [2026-06-05T16:26:41.816Z] Checked if tokens are valid: true, expires at: 1780678890364
-[debug] [2026-06-05T16:26:41.817Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/stereos-1090 [none]
-[debug] [2026-06-05T16:26:42.344Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/stereos-1090 200
